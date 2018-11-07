@@ -4125,8 +4125,9 @@ input, select, textarea {
 	text-align: center;
 	border-radius: 5px;
 	background-color: #39477c;
-	-webkit-transition: background-color 1s !important;
-    transition: background-color 1s !important;
+	-webkit-transition: opacity 0.8s ease, transform 0.8s ease, filter 0.35s ease, backround-color 1s !important;
+	transition: opacity 0.8s ease, transform 0.8s ease, filter 0.35s ease, backround-color 1s !important;
+	transition-delay: 0.8s !important;
 }
 
 .resume-button:hover {
