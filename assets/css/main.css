@@ -4112,3 +4112,23 @@ input, select, textarea {
 	border-radius: 100%;
 	border: 1px solid rgba(159, 160, 202, 0.705)
 }
+
+.resume-link {
+	width: 200px;
+	display: block;
+	border-bottom: none;
+}
+.resume-button {
+	padding: 10px;
+	border: 1px solid rgba(159, 160, 202, 0.705);
+	width: 200px;
+	text-align: center;
+	border-radius: 5px;
+	background-color: #39477c;
+	-webkit-transition: background-color 1s !important;
+    transition: background-color 1s !important;
+}
+
+.resume-button:hover {
+	background-color: rgba(169, 170, 241, 0.979);
+}
