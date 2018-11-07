@@ -4109,5 +4109,6 @@ input, select, textarea {
 	}
 .face {
 	width: 110px;
-	border-radius: 55px;
+	border-radius: 100%;
+	border: 1px solid rgba(159, 160, 202, 0.705)
 }
